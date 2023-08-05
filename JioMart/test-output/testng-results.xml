@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T14:22:26 IST" name="Default suite" finished-at="2023-06-23T14:22:45 IST" duration-ms="19372">
+    <groups>
+    </groups>
+    <test started-at="2023-06-23T14:22:26 IST" name="Default test" finished-at="2023-06-23T14:22:45 IST" duration-ms="19372">
+      <class name="HomePage.Dropdown1Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:HomePage.Dropdown1Test@4f6ee6e4]" started-at="2023-06-23T14:22:26 IST" name="beforeClass" finished-at="2023-06-23T14:22:28 IST" duration-ms="2621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:HomePage.Dropdown1Test@4f6ee6e4]" started-at="2023-06-23T14:22:28 IST" name="beforeMethod" finished-at="2023-06-23T14:22:32 IST" duration-ms="3870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="DD1()[pri:0, instance:HomePage.Dropdown1Test@4f6ee6e4]" started-at="2023-06-23T14:22:32 IST" name="DD1" finished-at="2023-06-23T14:22:45 IST" duration-ms="12531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DD1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:HomePage.Dropdown1Test@4f6ee6e4]" started-at="2023-06-23T14:22:45 IST" name="afterMethod" finished-at="2023-06-23T14:22:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:HomePage.Dropdown1Test@4f6ee6e4]" started-at="2023-06-23T14:22:45 IST" name="afterclass" finished-at="2023-06-23T14:22:45 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- HomePage.Dropdown1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests" >
+<!-- Parallel Testing -->	
+	<listeners>
+		<listener class-name="ExtentReports.ExteentTestNGReporterListener" />
+    </listeners>
+
+ <test  name="ChromeTest">  
+	  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="HomePage.Dropdown1TestCrossB"/>
+    </classes>
+    </test> <!-- Test -->
+  
+ <test  name="FirefoxTest">  
+	  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="HomePage.Dropdown1TestCrossB"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
